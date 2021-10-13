@@ -1,0 +1,44 @@
+{
+  "name": "strapi-provider-upload-arvan-cloud",
+  "version": "1.0.0",
+  "description": "arvancloud provider for strapi upload",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \\\"no tests yet\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaherii/strapi-provider-upload-arvan-cloud.git"
+  },
+  "keywords": [
+    "strapi",
+    "arvancloud",
+    "aws-sdk",
+    "client-s3",
+    "upload",
+    "provider"
+  ],
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "name": "Amir Zaheri",
+    "email": "zaheri@null.net"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaherii/strapi-provider-upload-arvan-cloud/issues"
+  },
+  "homepage": "https://github.com/zaherii/strapi-provider-upload-arvan-cloud#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.36.1",
+    "lodash": "^4.17.21"
+  }
+}
